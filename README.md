@@ -1,54 +1,56 @@
-# Account Reconciliation Engine
+# Account Reconciliation
 
-Python-based reconciliation automation project for accounting close activities.
+## Overview
 
-## Scope
+This project simulates a real-world accounting reconciliation process.
 
-Version 1 includes:
+The objective is to automate key reconciliation activities commonly performed during the month-end close process, helping accounting teams identify differences, unmatched transactions, and potential issues requiring investigation.
 
-- Bank reconciliation
-- GL cash reconciliation
-- AR subledger review
-- AP subledger review
-- Exceptions report
-- Reconciliation control checks
+## Business Problem
 
-## Inputs
+Accounting teams spend a significant amount of time reconciling:
 
-Place these files inside `data/`:
+* Bank transactions
+* General Ledger cash accounts
+* Accounts Receivable balances
+* Accounts Payable balances
 
-- bank_statement.xlsx
-- general_ledger_cash.xlsx
-- accounts_receivable_subledger.xlsx
-- accounts_payable_subledger.xlsx
-- reconciliation_parameters.xlsx
-- reconciliation_chart_of_accounts.xlsx
+This project demonstrates how these activities can be automated through data validation, matching logic, exception reporting, and reconciliation controls.
 
-## Python files
+## Main Features
 
-- main.py
-- bank_reconciliation_engine.py
-- subledger_reconciliation_engine.py
-- exceptions_engine.py
-- controls_engine.py
-- create_project_structure.py
+* Bank Reconciliation
+* Accounts Receivable Review
+* Accounts Payable Review
+* Exception Reporting
+* Reconciliation Control Checks
 
-## Outputs
+## Processed Files
 
-Generated in `outputs/`:
+The system reads the files:
 
-- bank_reconciliation.xlsx
-- unmatched_bank_transactions.xlsx
-- unmatched_gl_cash_transactions.xlsx
-- ar_reconciliation.xlsx
-- ap_reconciliation.xlsx
-- subledger_reconciliation_summary.xlsx
-- exceptions_report.xlsx
-- reconciliation_control_check.xlsx
+* Bank Statement
+* General Ledger Cash Transactions
+* Accounts Receivable Subledger
+* Accounts Payable Subledger
+* Reconciliation Parameters
+* Chart of Accounts
 
-## Run
+## Reports
 
-```bash
-pip install pandas openpyxl
-python main.py
-```
+The project generates:
+
+* Bank Reconciliation Report
+* Accounts Receivable Reconciliation
+* Accounts Payable Reconciliation
+* Exception Report
+* Reconciliation Control Check
+
+## Purpose
+
+This project was created as a practical accounting automation exercise combining:
+
+* Accounting Processes
+* Financial Controls
+* Reconciliation Procedures
+* Python Automation
