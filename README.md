@@ -1,10 +1,6 @@
 # Account Reconciliation
 ## Overview
 
-testesss
-
-
-
 This project simulates a real-world accounting reconciliation process.
 
 The objective is to automate key reconciliation activities commonly performed during the month-end close process, helping accounting teams identify differences, unmatched transactions, and potential issues requiring investigation.
