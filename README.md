@@ -1,10 +1,6 @@
 # Account Reconciliation
 
 
-
-TESTE GITHUB IN THE ACER
-
-
 ## Overview
 
 This project simulates a real-world accounting reconciliation process.
